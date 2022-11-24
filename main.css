@@ -1,0 +1,97 @@
+/* Generales */
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Lexend+Deca&family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+height: 100%;
+margin: 0;
+padding: 0;
+}
+
+body {
+    
+    font-family: 'Lexend-Deca', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+    padding: 2rem;
+    font-size: 15px;
+}
+
+/* Principal */
+.principal {
+    display: flex;
+    
+    
+    
+}
+
+/* Columna */
+.columna {
+    color: white;
+    padding: 3rem;
+    width: 20rem;
+    
+    
+   
+}
+
+
+
+.columna:first-of-type {
+border-radius: 1rem 0 0 1rem;
+}
+
+.columna:last-of-type {
+    border-radius: 0 1rem 1rem 0;
+}
+
+.sedans {
+    background-color: hsl(31, 77%, 52%);
+}
+
+.suvs {
+    background-color: hsl(184, 100%, 22%);
+}
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+}
+
+.titulo {
+    font-family: 'Big Shoulders Display',
+        cursiva;
+        text-transform: uppercase;
+}
+
+.texto {
+    font-size: 14px;
+    margin-bottom: 4rem;
+}
+
+.enlace {
+    text-decoration: none;
+    background-color: white;
+    border-radius: 1rem;
+    padding: .5rem;
+    font-size: 12px;
+}
+img.icono {
+    height: auto;
+    width: 20%;
+}
+
+.sedans .enlace {
+    color: hsl(31, 77%, 52%);
+}
+
+.suvs .enlace {
+    color: hsl(184, 100%, 22%);
+}
+
+.luxury .enlace {
+    color: hsl(179, 100%, 13%);
+}
